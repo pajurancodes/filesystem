@@ -1,0 +1,27 @@
+{
+    "name": "pajurancodes/filesystem",
+    "type": "library",
+    "description": "A library for handling file system-related tasks",
+    "keywords": [
+        "filesystem",
+        "file system",
+        "files",
+        "folders",
+        "directories"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Community of PajuranCodes",
+            "homepage": "https://github.com/pajurancodes"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "PajuranCodes\\Filesystem\\": "src/"
+        }
+    }
+}
